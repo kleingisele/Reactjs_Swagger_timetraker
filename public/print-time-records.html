@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Tracksite - Time Records</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/styles/print.css" />
+  </head>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-11">
+          <h1 class="label-intl" id="reports">Report</h1>
+        </div>
+        <div class="col-md-1">
+          <img class="img-fluid" src="assets/icons/logo.svg" />
+        </div>
+        <div class="col-md-12">
+          <hr />
+        </div>
+        <div class="col-md-12">
+          <div>
+            <a href="#"><span id="date" class="label-intl">Dates</span></a> <span id="date-range"></span>
+            <br />
+            <a href="#"><span id="totalTime" class="label-intl">Total time</span></a> <span id="total-time"></span>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <br />
+          <table class="table">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col" id="date" class="label-intl">Date</th>
+                <th scope="col" id="project" class="label-intl">Project</th>
+                <th scope="col" id="workStep" class="label-intl">Workstep</th>
+                <th scope="col" id="totalTime" class="label-intl">Duration</th>
+                <th scope="col" id="username" class="label-intl">User</th>
+              </tr>
+            </thead>
+            <tbody id="reports-container"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/scripts/print-time-records.js"></script>
+  </body>
+</html>

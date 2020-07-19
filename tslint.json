@@ -1,0 +1,12 @@
+{
+  "extends": ["@valudio/tslint-rules"],
+  "linterOptions": {
+    "exclude": [
+      "**/*.css",
+      "**/*.scss",
+      "**/*.svg",
+      "**/*.js",
+      "**/serviceWorker.ts"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+@keyframes lazy {
+  from { background-color: $color5; }
+  to { background-color: rgba(0, 0, 0, 0.02); }
+}
+
+@keyframes spin {
+  from { transform:rotate(0deg); }
+  to { transform:rotate(360deg); }
+}

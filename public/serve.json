@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "**/!(print-time-records|print-material-records)",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+// @import './colors.scss';
+@import './fonts.scss';
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+// }
+
+#timetracker {
+  display: flex;
+  flex-direction: row;
+}
+
+//   .page {
+//     display: flex;
+//     flex-direction: row;
+//     flex: 1;
+//     min-height: 100vh;
+//     min-width: 800px;
+
+//     > .content {
+//       display: flex;
+//       flex: 1;
+//       padding: 50px 32px;
+//       flex-direction: column;
+//       background: white;
+
+//       .footer {
+//         display: flex;
+//         flex-direction: row;
+//       }
+
+//       .spinner {
+//         position: relative;
+//         width: 30px;
+//         height: 30px;
+//         margin: 15px auto 20px;
+//       }
+
+//       .button {
+//         align-self: flex-start;
+
+//         &.new-button {
+//           margin: 0 10px 20px 0;
+//         }
+//       }
+
+//       > .filters {
+//         display: flex;
+//         flex-direction: row;
+//         margin: 0 0 20px;
+//         flex-wrap: wrap;
+
+//         > * {
+//           margin: 0 10px 10px 0;
+//           width: auto;
+//           flex: 1;
+
+//           .input {
+//             width: 100%;
+//           }
+//         }
+    
+//         // .input {
+//         //   width: 150px;
+//         //   border-color: $color4;
+//         //   font-size: 0.8em;
+//         // }
+
+//         .button.push {
+//           margin: 0 10px 0 auto;
+//         }
+//       }
+//     }
+
+//     .side {
+//       display: flex;
+//       flex: 1 1;
+//       flex-direction: row;
+//       justify-content: center;
+
+//       &:first-child {
+//         background: $color3;
+//       }
+
+//       > .content {
+//         display: flex;
+//         flex: auto;
+//         flex-direction: column;
+//         align-items: center;
+//         justify-content: center;
+
+//         &.no-flex {
+//           flex: 0;
+//         }
+
+//         .locale-selector {
+//           flex-direction: column;
+//           margin: 0 40px 0 0;
+//           align-self: flex-end;
+
+//           .locale {
+//             margin: 4px 0;
+//             &.active {
+//               color: $color3;
+//             }
+//           }
+//         }
+//       }
+//     }
+
+//     footer {
+//       display: flex;
+//       flex-direction: row;
+
+//       .field {
+//         margin: 0;
+//       }
+//     }
+
+//     .modal {
+//       .fields {
+//         margin: 50px 0 40px;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//       }
+
+//       .input, .select {
+//         width: 310px;
+//       }
+    
+//       .buttons {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: flex-end;
+    
+//         .button {
+//           margin: 0 0 0 10px;
+//         }
+//       }
+//     }
+//   }
+// }

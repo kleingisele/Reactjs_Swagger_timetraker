@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+# this project is timetraker. reactjs reduxjs,(route, hook, chart, api, auth2, firebase,session, print ... etc)
 ## Available Scripts
 
 In the project directory, you can run:
